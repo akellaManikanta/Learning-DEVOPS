@@ -1,0 +1,8 @@
+env:
+  MAIN_BRANCH: first_changes
+
+steps:
+  - label: "Example Test"
+    command: echo "Hello!"
+  - label: "Example Test2"
+    command: echo "Hello! I am from test2"

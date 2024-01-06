@@ -1,1 +1,1 @@
-# Learning-DEVOPS
+This Project is to learn Build-kite Docker and Kubernetes using AWS managed by terraform
