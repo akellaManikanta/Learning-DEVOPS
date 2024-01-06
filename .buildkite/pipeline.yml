@@ -5,4 +5,7 @@ steps:
   - label: "Example Test"
     command: echo "Hello!"
   - label: "Example Test2"
-    command: echo "Hello! I am from test2"
+    command: test.sh
+    plugins:
+      - docker-compose#v4.16.0:
+        run: app
